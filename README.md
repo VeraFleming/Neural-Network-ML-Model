@@ -34,7 +34,7 @@ The target of the model (X) is the column "IS_SUCCESSFUL" indicating that it has
 The features of the model (y) going to be all columns of the DataFrame except target column, which is IS_SUCCESSFUL.
 The code will be the following:
 
-image
+<img src= "Pictures/Xy code.png" width = "700">
 
 - What variable(s) are neither targets nor features, and should be removed from the input data?
 The EIN and NAME columns will not affect the accuracy of the model and can be removed to improve code efficiency.
@@ -48,7 +48,7 @@ The target for the model was 75%, but the best the model could produce was 53.3%
 - What steps did you take to try and increase model performance?
 I tried to use a different model to see if it will do predictions better and a RandomForestClassifier seems showing a better results of accuracy score as 77,6%.
 
-image
+<img src= "Pictures/RandomForestClassifier.png" width = "700">
 
 ## Summary:
 The relu and sigmoid activations yielded a low accuracy, which is the best the neural network model could produce using various number of neurons and layers. And RandomForestClassifier could solve this problem, maybe the dataset wasn't big enough for neural networks or the model itself works better with this types of problem, it would need a deeper research and study.
